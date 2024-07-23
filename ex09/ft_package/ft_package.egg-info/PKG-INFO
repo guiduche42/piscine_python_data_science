@@ -5,14 +5,17 @@ Summary: A sample test package
 Home-page: https://github.com/guiduche42/piscine_python_data_science
 Author: guiduche
 Author-email: guillemette.duchateau@gmail.com
-License: 42
+License: MIT
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: 42 License
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-UNKNOWN
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 

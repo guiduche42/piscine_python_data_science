@@ -6,4 +6,6 @@
 
 import time
 seconds = time.time()
-print("Seconds since January 1, 1970:", seconds, "or","{:.2e}".format(seconds), "in scientific notation", sep=' ')
+current_time = time.localtime()
+print("Seconds since January 1, 1970:", "{:,.4f}".format(seconds), "or","{:.2e}".format(seconds), "in scientific notation", sep=' ')
+print(time.strftime("%b %d %Y", current_time))

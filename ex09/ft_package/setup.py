@@ -9,11 +9,11 @@ setup(
     url='https://github.com/guiduche42/piscine_python_data_science',
     author='guiduche',
     author_email='guillemette.duchateau@gmail.com',
-    license='42',
+    license='MIT',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: 42 License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
