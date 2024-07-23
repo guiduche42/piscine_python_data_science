@@ -43,6 +43,26 @@ NESTED_MORSE = {
 
 
 def encode_to_morse(message):
+    """
+    Encodes a message into Morse code.
+
+    The encode_to_morse function takes a string message as input and
+    encodes it into Morse code using a predefined mapping of characters
+    to Morse code. Each letter in the message is converted to its Morse
+    code equivalent, and spaces are represented by a slash ('/').
+
+    Parameters:
+    message (str): The input message to be encoded in Morse code.
+
+    Returns:
+    str: A string representing the encoded message in Morse code.
+
+    Example:
+    >>> encode_to_morse("SOS")
+    '... --- ...'
+    >>> encode_to_morse("HELLO WORLD")
+    '.... . .-.. .-.. --- / .-- --- .-. .-.. -..'
+    """
     encoded_message = []
     for char in message.upper():
         assert char in NESTED_MORSE, "the arguments are bad"

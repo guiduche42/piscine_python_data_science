@@ -3,6 +3,24 @@ import string
 
 
 def count_characters(text):
+    """
+    The count_characters function takes a text input and returns a
+    dictionary describing the types of characters found in the text.
+
+    The dictionary contains counts for the following types of characters:
+    - 'char': Total number of characters
+    - 'upper': Number of uppercase letters
+    - 'lower': Number of lowercase letters
+    - 'punctuation': Number of punctuation marks
+    - 'spaces': Number of spaces
+    - 'digits': Number of digits
+
+    Parameters:
+    text (str): The input text to be analyzed.
+
+    Returns:
+    dict: A dictionary with counts of different character types.
+    """
     counts = {
         'char': 0,
         'upper': 0,

@@ -17,7 +17,7 @@ def NULL_not_found(object: any) -> int:
 		print("Zero:", object, type(object), sep=' ')
 	elif type(object) is str:
 		if object == '':
-			print("Empty:", object, type(object), sep=' ')
+			print("Empty:", type(object), sep=' ')
 		else:
 			print("Type not Found")
 	elif type(object) is bool:

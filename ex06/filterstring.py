@@ -4,6 +4,25 @@ import string
 
 
 def is_valid_string(s: str) -> bool:
+    """
+    Checks if a string contains only valid characters.
+
+    The is_valid_string function takes a string as input and checks if it
+    contains only valid characters. A valid string is defined as one that
+    does not contain any punctuation marks or invisible characters.
+
+    Parameters:
+    s (str): The input string to be validated.
+
+    Returns:
+    bool: True if the string is valid, False otherwise.
+
+    Example:
+    >>> is_valid_string("Hello World")
+    True
+    >>> is_valid_string("Hello, World!")
+    False
+    """
     invisible_characters = {chr(i) for i in range(32)} | {chr(127)}
     for char in s:
         if char in string.punctuation or char in invisible_characters:
